@@ -1,0 +1,19 @@
+TRACE MODEL VALIDATION
+======================
+
+Confusion matrix [normal, incident]:
+[[698  11]
+ [  0  11]]
+
+Classification report:
+                   precision    recall  f1-score   support
+
+           Normal       1.00      0.98      0.99       709
+Injected incident       0.50      1.00      0.67        11
+
+         accuracy                           0.98       720
+        macro avg       0.75      0.99      0.83       720
+     weighted avg       0.99      0.98      0.99       720
+
+
+Note: Only the deliberately injected incident is labeled. Other real-world anomalies may be unlabeled.
